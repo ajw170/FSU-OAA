@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		98C939921E64DB6C00516B48 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98C939911E64DB6C00516B48 /* main.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		98C9398C1E64DB6C00516B48 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		98C9398E1E64DB6C00516B48 /* FSU OAA */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FSU OAA"; sourceTree = BUILT_PRODUCTS_DIR; };
-		98C939911E64DB6C00516B48 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +52,6 @@
 		98C939901E64DB6C00516B48 /* FSU OAA */ = {
 			isa = PBXGroup;
 			children = (
-				98C939911E64DB6C00516B48 /* main.cpp */,
 			);
 			path = "FSU OAA";
 			sourceTree = "<group>";
@@ -119,7 +113,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98C939921E64DB6C00516B48 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +162,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "-I$(PROJECT_DIR)";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -209,6 +203,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = "-I$(PROJECT_DIR)";
 				SDKROOT = macosx;
 			};
 			name = Release;
