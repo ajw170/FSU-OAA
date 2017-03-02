@@ -79,6 +79,7 @@
 		984B41A91E67A8BF000F8F7A /* list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = list.cpp; sourceTree = "<group>"; };
 		984B41AB1E67A8D4000F8F7A /* list_macro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = list_macro.cpp; sourceTree = "<group>"; };
 		984B41AD1E67A8E9000F8F7A /* list_sort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = list_sort.cpp; sourceTree = "<group>"; };
+		984B41AF1E67AD54000F8F7A /* english.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = english.out; path = ../english.out; sourceTree = "<group>"; };
 		98C033911E6754DE00953069 /* english.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = english.txt; path = ../english.txt; sourceTree = "<group>"; };
 		98C033921E6754DE00953069 /* foaa.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = foaa.cpp; path = ../foaa.cpp; sourceTree = "<group>"; };
 		98C033931E6754DE00953069 /* foaa+.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "foaa+.cpp"; path = "../foaa+.cpp"; sourceTree = "<group>"; };
@@ -190,6 +191,7 @@
 		98C939901E64DB6C00516B48 /* FSU OAA */ = {
 			isa = PBXGroup;
 			children = (
+				984B41AF1E67AD54000F8F7A /* english.out */,
 				984B41A71E67A4C0000F8F7A /* cleanup.cpp */,
 				984B41961E67A0C7000F8F7A /* wordsmith2.h */,
 				984B41971E67A0DB000F8F7A /* wordsmith2.cpp */,
