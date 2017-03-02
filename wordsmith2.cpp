@@ -32,6 +32,7 @@ bool WordSmith::ReadText (const fsu::String& infile, bool showProgress)
     const unsigned long tickerVal = 65536;
     fsu::String wordString;
     size_t wordCounter = 0;
+    size_t initVocabSize = VocabSize();
     
     while (inClientFile >> wordString) //read words from file separated by whitespace, continue until EOF
     {
@@ -57,7 +58,8 @@ bool WordSmith::ReadText (const fsu::String& infile, bool showProgress)
     count_ += wordCounter; //add to count_ var
     
     std::cout << "\n\tNumber of words read:    " << wordCounter;
-    std::cout << "\n\tCurrent vocabulary size: " << VocabSize() << "\n";
+    
+    std::cout << "\n\tNew words in vocabulary: " << VocabSize() - initVocabSize << "\n";
     
     infiles_.PushBack(infile); //pushes the file name to the infiles_ list
     
