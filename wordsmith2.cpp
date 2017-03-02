@@ -13,7 +13,7 @@
 #include <fstream> // Allows for read access to files
 #include <iomanip>
 
-WordSmith::WordSmith() : frequency_(), infiles_()  //default constructor
+WordSmith::WordSmith() : frequency_(), infiles_(), count_(0)  //default constructor
 {}
 
 WordSmith::~WordSmith() // destructor
