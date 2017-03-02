@@ -3,7 +3,7 @@
  FSU ID: ajw14m
  March 1, 2017
  
- Header file for wordsmith2.h
+ Header file for wordsmith2.h -- enhancement to wordsmith.h
  
  A WordSmith object stores words in an underlying set available set in the FSU library.
  For this implementation, Wordsmith uses an FSU::OAA (Ordered Assocaitive Array).
