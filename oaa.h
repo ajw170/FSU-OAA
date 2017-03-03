@@ -224,9 +224,13 @@ namespace fsu
         while(n) //while on a valid node
         {
             if (pred_(k, n->key_)) //if k is less than current key
+            {
                 n = n->lchild_; //go left
-            if (pred_(n->key_, k)) //if k is greater than current key
+            }
+            else if (pred_(n->key_, k)) //if k is greater than current key
+            {
                 n = n->rchild_; //go right
+            }
             else //key found
             {
                 n->SetDead();
